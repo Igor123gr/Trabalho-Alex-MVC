@@ -1,0 +1,9 @@
+create Database contasapagar;
+
+create table despesas(
+    id int auto_increment primary key,
+    nome varchar(200),
+    quantia varchar(200),
+    prazo date
+);
+
